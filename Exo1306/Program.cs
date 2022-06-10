@@ -6,8 +6,9 @@ namespace Exo1306
     {
         static void Main(string[] args)
         {
-            CarTemplate RenaultClio = new CarTemplate();
-            TruckTemplate MercedesTemplate = new TruckTemplate();
+            CarTemplate Clio = new Renault();
+            TruckTemplate Accros = new Mercedes();
+
             Console.WriteLine("Hello World!");
         }
     }
